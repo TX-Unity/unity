@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tetther
+Type=Application
+NoDisplay=true
+Categories=Utility;Application;
+Icon=/home/red/Desktop/Applications/capture-tethered.png
+Exec="/home/red/Desktop/Applications/capture-tethered.sh"
+Terminal=true
