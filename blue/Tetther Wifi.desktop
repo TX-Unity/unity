@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Tetther Wifi
-Type=Application
-NoDisplay=true
-Categories=Utility;Application;
-Icon=/home/blue/Desktop/Applications/capture-tethered.png
-Exec="/home/blue/Desktop/Applications/capture-tethered-wifi.sh"
-Terminal=true
-Name[en_US]=Tetther Wifi

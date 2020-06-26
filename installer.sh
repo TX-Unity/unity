@@ -37,8 +37,8 @@ for i in "${my_array[@]}"
 do
   rm -r /home/$i/Desktop/Applications >/dev/null 2>&1
   mkdir /home/$i/Desktop/ >/dev/null 2>&1
-  cp -avrp $i/ /home/$i/Desktop/Applications >/dev/null 2>&1
-  cp -p $i/*.desktop /home/$i/Desktop/ >/dev/null 2>&1
+  cp -avrp Applications/ /home/$i/Desktop >/dev/null 2>&1
+  cp -p ./Applications/desktop.files/*.desktop /home/$i/Desktop/ >/dev/null 2>&1
   chown $i:$i -R /home/$i/Desktop
   chmod +x -R /home/$i/Desktop
 

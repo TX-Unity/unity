@@ -3,6 +3,8 @@ Name=Chose Folder
 Type=Application
 NoDisplay=true
 Categories=Utility;Application;
-Icon=/home/green/Desktop/Applications/chosefolder.png
-Exec="/home/green/Desktop/Applications/chosefolder.py"
+Icon=./Applications/icons/chosefolder.png
+Exec="./Applications/chosefolder.py"
 Terminal=false
+Name[en_US]=chosefolder.desktop
+

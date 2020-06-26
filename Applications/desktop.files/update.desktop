@@ -3,7 +3,9 @@ Name=Update Scripts
 Type=Application
 NoDisplay=true
 Categories=Utility;Application;
-Icon=/home/green/Desktop/Applications/update.jpeg
-Exec="/home/green/Desktop/Applications/script.git.sh"
+Icon=./Applications/icons/update.jpeg
+Exec="./Applications/script.git.sh"
 Terminal=true
 Name[en_US]=Update Script
+
+

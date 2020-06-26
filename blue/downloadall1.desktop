@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Download all
-Type=Application
-NoDisplay=true
-Categories=Utility;Application;
-Icon=/home/blue/Desktop/Applications/downloadall.png
-Exec="/home/blue/Desktop/Applications/downloadall.sh"
-Terminal=true
