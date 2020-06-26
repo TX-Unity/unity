@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Download all Wifi
-Type=Application
-NoDisplay=true
-Categories=Utility;Application;
-Icon=./Applications/icons/downloadall.png
-Exec="./Applications/downloadall-wifi.sh"
-Terminal=true
-Name[en_US]=DownloadallWifi.desktop

@@ -21,9 +21,10 @@ git clone https://github.com/TX-Unity/unity $downloadin >/dev/null 2>&1
 if [ "$EUID" -ne 0 ]; then
   # if im a normal user
   username=$(whoami)
+  echo "im $username"
   cd $downloadin
-  cp -avrp $downloadin/Applications $HOME/Desktop/ >/dev/null 2>&1
-  cp -p $downloadin/Applications/desktop.files/*.desktop $HOME/Desktop/ >/dev/null 2>&1
+  cp -avrp $downloadin/$username/* $HOME/Desktop/Applications >/dev/null 2>&1
+  cp -p $downloadin/$username/*.desktop $HOME/Desktop/ >/dev/null 2>&1
   chown $username:$username -R $HOME/Desktop
   chmod +x -R $HOME/Desktop
 else
@@ -33,4 +34,4 @@ else
 
 fi
 echo "Script end"
-#rm -rf $downloadin
+rm -rf $downloadin
