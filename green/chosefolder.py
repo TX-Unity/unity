@@ -72,8 +72,8 @@ class main_window(wx.Frame):
                         print (line.strip())
                     else:
                         print (line.strip())
-            filedownloadall=os.path.join(Path.home(), "Desktop","Applications", "capture-tethered-wifi.sh")
 
+            filedownloadall=os.path.join(Path.home(), "Desktop","Applications", "capture-tethered-wifi.sh")
             with fileinput.FileInput(filedownloadall, inplace=True, backup='.bak') as file:
                 exit=0
                 for line in file:
@@ -86,8 +86,7 @@ class main_window(wx.Frame):
                         print (line.strip())
 
             filed_tethering=os.path.join(Path.home(), "Desktop","Applications", "downloadall-wifi.sh")
-
-            with fileinput.FileInput(filedownloadall, inplace=True, backup='.bak') as file:
+            with fileinput.FileInput(filed_tethering, inplace=True, backup='.bak') as file:
                 exit=0
                 for line in file:
                     if search_for in line and exit==0:
@@ -98,8 +97,8 @@ class main_window(wx.Frame):
                     else:
                         print (line.strip())
 
-            filed_tethering=os.path.join(Path.home(), "Desktop","Applications", "capture-tethered.sh")
 
+            filed_tethering=os.path.join(Path.home(), "Desktop","Applications", "capture-tethered.sh")
             with fileinput.FileInput(filed_tethering, inplace=True, backup='.bak') as file:
                 exit=0
                 for line in file:
